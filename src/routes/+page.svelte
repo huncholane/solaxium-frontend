@@ -1,16 +1,23 @@
-<div class="container h-full mx-auto flex justify-center items-center">
-	<div class="space-y-10 text-center flex flex-col items-center">
-		<h2 class="h2">Welcome to the Solaxium Ecosystem.</h2>
-		<!-- Animated Logo -->
-		<img src="/favicon.svg" alt="" />
-		<!-- / -->
-		<div class="flex justify-center space-x-2">
-			<a class="btn variant-filled" href="https://t.me/solaxium" target="_blank" rel="noreferrer">
-				Join the Ecosystem
-			</a>
+<script lang="typescript">
+	import Roadmap from './../lib/Roadmap.svelte';
+</script>
+
+<div>
+	<div class="container h-full mx-auto flex justify-center items-center">
+		<div class="space-y-10 text-center flex flex-col items-center">
+			<h2 class="h2">Welcome to the Solaxium Ecosystem.</h2>
+			<!-- Animated Logo -->
+			<img src="/favicon.svg" width="200px" alt="" />
+			<!-- / -->
+			<div class="flex justify-center space-x-2">
+				<a class="btn variant-filled" href="https://t.me/solaxium" target="_blank" rel="noreferrer">
+					Join the Ecosystem
+				</a>
+			</div>
+			<div class="space-y-2"></div>
 		</div>
-		<div class="space-y-2"></div>
 	</div>
+	<Roadmap />
 </div>
 
 <style lang="postcss">
