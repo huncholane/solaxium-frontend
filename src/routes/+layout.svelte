@@ -10,6 +10,7 @@
 	import css from 'highlight.js/lib/languages/css';
 	import javascript from 'highlight.js/lib/languages/javascript';
 	import typescript from 'highlight.js/lib/languages/typescript';
+	import Icon from '@iconify/svelte';
 
 	hljs.registerLanguage('xml', xml); // for HTML
 	hljs.registerLanguage('css', css);
@@ -24,6 +25,7 @@
 
 	//Popout Menu
 	import { AppRail, AppRailTile, AppRailAnchor } from '@skeletonlabs/skeleton';
+	import LogoCloud from '$lib/LogoCloud.svelte';
 	let currentTile: number = 0;
 </script>
 
@@ -33,22 +35,10 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<AppRailAnchor href="https://solaxium.com" target="_blank"
-					><img class="solaxium-logo"
-						style=
-						"height:100px;
-						 width:80px;
-				    	 margin-left:-15px; 
-						 margin-bottom:10px;
-						 margin-top:-10px;" 
-					src="/favicon.svg" alt="" /></AppRailAnchor
-					>
-				<img 
-				style=
-					"height:30px;
-					margin-left:20px;
-					" 
-				src="/solaxium.svg" alt=""/>
+				<AppRailAnchor href="/" target="_blank"
+					><img class="solaxium-brand" src="/favicon.svg" alt="" /></AppRailAnchor
+				>
+				<img class="solaxium-logo" src="/solaxium.svg" alt="" />
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<a
@@ -98,10 +88,7 @@
 				<svelte:fragment slot="lead">
 					<AppRailAnchor href="https://twitter.com/Solaxium" target="_blank">
 						<div>
-							<svg
-								viewBox="0 0 24 24"
-								aria-hidden="true"
-								class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"
+							<svg viewBox="0 0 24 24" aria-hidden="true" class="x-icon"
 								><g fill="white"
 									><path
 										d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
@@ -125,13 +112,26 @@
 					>
 				</svelte:fragment>
 			</AppRailTile>
-			<!-- --- -->
-			<svelte:fragment slot="trail">
-				<AppRailAnchor href="/" target="_blank" title="Account">(Log Out)</AppRailAnchor>
-			</svelte:fragment>
 		</AppRail>
 	</svelte:fragment>
 	<slot />
 
-	<svelte:fragment slot="footer">℗ Hygo AI & MonkeWifHat 2024</svelte:fragment>
+	<svelte:fragment slot="footer"
+		><div class=""></div>
+		<LogoCloud /></svelte:fragment
+	>
 </AppShell>
+
+<style>
+	.solaxium-brand {
+		width: 90px;
+		margin-left: -10px;
+	}
+	.solaxium-logo {
+		width: 180px;
+	}
+	.x-icon {
+		width: 60px;
+		margin: auto;
+	}
+</style>
