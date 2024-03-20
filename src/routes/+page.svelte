@@ -1,4 +1,5 @@
 <script>
+	import FinalSection from '$lib/FinalSection.svelte';
 	import Roadmap from '$lib/Roadmap.svelte';
 </script>
 
@@ -17,6 +18,7 @@
 	</div>
 </div>
 <Roadmap />
+<FinalSection />
 
 <style lang="postcss">
 	figure {
