@@ -6,7 +6,7 @@
 	<Stepper>
 		<Step>
 			<svelte:fragment slot="header">March 2024</svelte:fragment>
-			Launch of dev team community token $MIF.
+			Launch of dev team community token <a href="https://monkewifhat.com">monkewifhat ($MIF)</a>.
 		</Step>
 		<Step>
 			<svelte:fragment slot="header">March 2024</svelte:fragment>
@@ -39,5 +39,8 @@
 	div {
 		width: 80%;
 		margin: auto;
+	}
+	a {
+		color: #d1548d;
 	}
 </style>
