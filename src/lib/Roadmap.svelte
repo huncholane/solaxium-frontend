@@ -3,6 +3,7 @@
 </script>
 
 <div>
+	<h1>Roadmap 🚀</h1>
 	<Stepper>
 		<Step>
 			<svelte:fragment slot="header">March 2024</svelte:fragment>
@@ -42,5 +43,9 @@
 	}
 	a {
 		color: #d1548d;
+	}
+	h1 {
+		font-size: 30px;
+		padding-bottom: 20px;
 	}
 </style>

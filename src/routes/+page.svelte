@@ -1,4 +1,5 @@
 <script>
+	import Benefits from '$lib/Benefits.svelte';
 	import FinalSection from '$lib/FinalSection.svelte';
 	import Roadmap from '$lib/Roadmap.svelte';
 </script>
@@ -17,6 +18,7 @@
 		<div class="space-y-2"></div>
 	</div>
 </div>
+<Benefits />
 <Roadmap />
 <FinalSection />
 
