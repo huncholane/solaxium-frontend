@@ -14,7 +14,7 @@
 		</Step>
 		<Step>
 			<svelte:fragment slot="header">March 2024</svelte:fragment>
-			Javascript prototype.
+			Javascript prototype for automated Solana bots.
 		</Step>
 		<Step>
 			<svelte:fragment slot="header">April 2024</svelte:fragment>

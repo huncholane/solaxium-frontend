@@ -27,6 +27,7 @@
 	import { AppRail, AppRailTile, AppRailAnchor } from '@skeletonlabs/skeleton';
 	import LogoCloud from '$lib/LogoCloud.svelte';
 	import Footer from '$lib/Footer.svelte';
+	import SocialBar from '$lib/SocialBar.svelte';
 	let currentTile: number = 0;
 </script>
 
@@ -42,14 +43,16 @@
 				<img class="solaxium-logo" src="/solaxium.svg" alt="" />
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
-				<a
-					class="btn btn-sm variant-ghost-surface"
-					href="https://github.com/huncholane/solaxium/blob/main/ReadMe.md"
-					target="_blank"
-					rel="noreferrer"
-				>
-					WhitePaper
-				</a>
+				<div style="display: flex; flex-direction: row;">
+					<a
+						class="btn btn-sm variant-ghost-surface"
+						href="https://github.com/huncholane/solaxium/blob/main/ReadMe.md"
+						target="_blank"
+						rel="noreferrer"
+					>
+						WhitePaper
+					</a>
+				</div>
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
@@ -65,9 +68,5 @@
 	}
 	.solaxium-logo {
 		width: 180px;
-	}
-	.x-icon {
-		width: 60px;
-		margin: auto;
 	}
 </style>

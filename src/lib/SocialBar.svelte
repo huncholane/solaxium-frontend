@@ -1,36 +1,29 @@
 <script>
 	import Icon from '@iconify/svelte';
-	import SocialBar from './SocialBar.svelte';
 </script>
 
-<footer class="footer">
-	<div class="container">
-		<div class="row">
-			<div class="footer-col">
-				<h4>Email</h4>
-				<ul>
-					<li>
-						<a style="text-transform: none;" href="mailto:team@solaxium.com" target="_blank"
-							>team@solaxium.com</a
-						>
-					</li>
-				</ul>
-			</div>
-			<div class="footer-col">
-				<h4>Partners</h4>
-				<ul>
-					<li><a href="https://hygo.ai">Hygo AI</a></li>
-					<li><a href="https://monkewifhat.com" target="_blank">MonkeWifHat ($MIF)</a></li>
-				</ul>
-			</div>
-
-			<div class="footer-col">
-				<h4>follow us</h4>
-				<SocialBar />
-			</div>
+<div class="social-links">
+	<a class="logo-item p-2" href="https://twitter.com/Solaxium" target="_blank">
+		<div class="logo-container">
+			<span><Icon icon="tabler:brand-x" width="32px" /></span>
 		</div>
-	</div>
-</footer>
+	</a>
+	<a class="logo-item p-2" href="https://t.me/solaxium" target="_blank">
+		<div class="logo-container">
+			<span><Icon icon="tabler:brand-telegram" width="32px" /></span>
+		</div>
+	</a>
+	<a class="logo-item p-2" href="https://github.com/huncholane/solaxium" target="_blank">
+		<div class="logo-container">
+			<span><Icon icon="tabler:brand-github-filled" width="32px" /></span>
+		</div>
+	</a>
+	<a class="logo-item p-2" href="https://discord.gg/SxswvkgfKn" target="_blank">
+		<div class="logo-container">
+			<span><Icon icon="tabler:brand-discord-filled" width="32px" /></span>
+		</div>
+	</a>
+</div>
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
