@@ -76,9 +76,8 @@
 			<AppRailTile bind:group={currentTile} name="tile-1" value={0} title="tile-1">
 				<svelte:fragment slot="lead">
 					<AppRailAnchor href="https://discord.gg/SxswvkgfKn" target="_blank"
-						><div>
-							<img style="margin:auto;" width="80%" src="/discord.svg" alt="" />
-						</div></AppRailAnchor
+						><img style="margin:auto;" width="80%" src="/discord.svg" alt="" />
+						</AppRailAnchor
 					>
 				</svelte:fragment>
 			</AppRailTile>
