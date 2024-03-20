@@ -33,8 +33,21 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<img style="margin-left:-30px;" width="80%" src="/favicon.svg" alt="" />
-				<strong style="margin-left:-400px;" class="text-x1 uppercase;">Solaxium</strong>
+				<AppRailAnchor href="https://solaxium.com" target="_blank"
+					><img 
+						style=
+						"height:60px;
+				    	 margin-left:0px; 
+						 margin-bottom:-30px;
+						 margin-top:-30px;" 
+					src="/favicon.svg" alt="" /></AppRailAnchor
+					>
+				<img 
+				style=
+					"height:30px;
+					margin-left:20px;
+					" 
+				src="/solaxium.svg" alt=""/>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<a
