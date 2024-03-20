@@ -33,8 +33,8 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<img style="margin-left:0%;" width="10%" src="/solaxiumlogo.webp" alt="" />
-				<strong class="text-xl uppercase">Solaxium</strong>
+				<img style="margin-left:-30px;" width="80%" src="/favicon.svg" alt="" />
+				<strong style="margin-left:-400px;" class="text-x1 uppercase;">Solaxium</strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<a
