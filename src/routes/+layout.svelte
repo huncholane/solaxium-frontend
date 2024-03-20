@@ -26,6 +26,7 @@
 	//Popout Menu
 	import { AppRail, AppRailTile, AppRailAnchor } from '@skeletonlabs/skeleton';
 	import LogoCloud from '$lib/LogoCloud.svelte';
+	import Footer from '$lib/Footer.svelte';
 	let currentTile: number = 0;
 </script>
 
@@ -116,10 +117,7 @@
 	</svelte:fragment>
 	<slot />
 
-	<svelte:fragment slot="footer"
-		><div class=""></div>
-		<LogoCloud /></svelte:fragment
-	>
+	<svelte:fragment slot="footer"><Footer /></svelte:fragment>
 </AppShell>
 
 <style>

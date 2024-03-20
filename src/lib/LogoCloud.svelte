@@ -2,7 +2,7 @@
 	import Icon from '@iconify/svelte';
 </script>
 
-<div class="logo-cloud grid-cols-1 lg:!grid-cols-4 gap-1 w-96 m-auto">
+<div class="logo-cloud grid-cols-1 lg:!grid-cols-4 gap-1 w-96">
 	<a class="logo-item p-2" href="https://twitter.com/Solaxium" target="_blank">
 		<span><Icon icon="tabler:brand-x" width="48px" /></span>
 	</a>
