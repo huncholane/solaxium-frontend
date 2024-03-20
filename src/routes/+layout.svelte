@@ -70,51 +70,7 @@
 		</AppBar>
 	</svelte:fragment>
 	<!-- Page Route Content -->
-	<svelte:fragment slot="sidebarLeft">
-		<AppRail>
-			<svelte:fragment slot="lead">
-				<AppRailAnchor href="https://github.com/huncholane/solaxium" target="_blank"
-					><img style="margin:auto;" width="110%" src="/github.svg" alt="" /></AppRailAnchor
-				>
-			</svelte:fragment>
-			<!-- --- -->
-			<AppRailTile bind:group={currentTile} name="tile-1" value={0} title="tile-1">
-				<svelte:fragment slot="lead">
-					<AppRailAnchor href="https://discord.gg/SxswvkgfKn" target="_blank"
-						><img style="margin:auto;" width="80%" src="/discord.svg" alt="" />
-					</AppRailAnchor>
-				</svelte:fragment>
-			</AppRailTile>
-			<AppRailTile bind:group={currentTile} name="tile-2" value={1} title="tile-2">
-				<svelte:fragment slot="lead">
-					<AppRailAnchor href="https://twitter.com/Solaxium" target="_blank">
-						<div>
-							<svg viewBox="0 0 24 24" aria-hidden="true" class="x-icon"
-								><g fill="white"
-									><path
-										d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
-									></path></g
-								></svg
-							><span
-								class="css-1qaijid r-dnmrzs r-1udh08x r-3s2u2q r-bcqeeo r-qvutc0 r-poiln3 r-1inkyih r-rjixqe"
-								style="text-overflow: unset;"
-							></span>
-						</div>
-					</AppRailAnchor>
-					<div dir="ltr" class="" style="text-overflow: unset; color: white; fill: white;"></div>
-				</svelte:fragment>
-			</AppRailTile>
-			<AppRailTile bind:group={currentTile} name="tile-3" value={2} title="tile-3">
-				<svelte:fragment slot="lead"
-					><AppRailAnchor href="https://t.me/solaxium" target="_blank"
-						><div>
-							<img style="margin:auto;" width="80%" src="/telegram.svg" alt="" />
-						</div></AppRailAnchor
-					>
-				</svelte:fragment>
-			</AppRailTile>
-		</AppRail>
-	</svelte:fragment>
+
 	<slot />
 
 	<svelte:fragment slot="footer"><Footer /></svelte:fragment>
