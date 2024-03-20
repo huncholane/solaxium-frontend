@@ -69,7 +69,7 @@
 		<AppRail>
 			<svelte:fragment slot="lead">
 				<AppRailAnchor href="https://github.com/huncholane/solaxium" target="_blank"
-					><img style="margin:auto;" width="110%" src="/github.webp" alt="" /></AppRailAnchor
+					><img style="margin:auto;" width="110%" src="/github.svg" alt="" /></AppRailAnchor
 				>
 			</svelte:fragment>
 			<!-- --- -->
@@ -77,25 +77,30 @@
 				<svelte:fragment slot="lead">
 					<AppRailAnchor href="https://discord.gg/SxswvkgfKn" target="_blank"
 						><div>
-							<img style="margin:auto;" width="80%" src="/discord.webp" alt="" />
+							<img style="margin:auto;" width="80%" src="/discord.svg" alt="" />
 						</div></AppRailAnchor
 					>
 				</svelte:fragment>
 			</AppRailTile>
 			<AppRailTile bind:group={currentTile} name="tile-2" value={1} title="tile-2">
-				<svelte:fragment slot="lead"
-					><div
-						dir="ltr"
-						class=""
-						style="text-overflow: unset; color: white; fill: white;"
-					></div></svelte:fragment
-				>
+				<svelte:fragment slot="lead">
+					<AppRailAnchor href="https://twitter.com/Solaxium" target="_blank">
+						<div>
+							<img style="margin:auto;" width="80%" src="/x.svg" alt="" />
+						</div>
+							</AppRailAnchor>
+							<div
+								dir="ltr"
+								class=""
+								style="text-overflow: unset; color: white; fill: white;">
+							</div>
+				</svelte:fragment>
 			</AppRailTile>
 			<AppRailTile bind:group={currentTile} name="tile-3" value={2} title="tile-3">
 				<svelte:fragment slot="lead"
 					><AppRailAnchor href="https://t.me/solaxium" target="_blank"
 						><div>
-							<img style="margin:auto;" width="80%" src="/telegram.png" alt="" />
+							<img style="margin:auto;" width="80%" src="/telegram.svg" alt="" />
 						</div></AppRailAnchor
 					>
 				</svelte:fragment>
