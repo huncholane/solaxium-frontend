@@ -2,7 +2,10 @@
 	<div class="space-y-10 text-center flex flex-col items-center">
 		<h2 class="h2">Welcome to the Solaxium Ecosystem.</h2>
 		<!-- Animated Logo -->
-		<img src="/favicon.svg" alt="" />
+		<img 
+			style=
+			"height:600px;"
+			src="/favicon.svg" alt="" />
 		<!-- / -->
 		<div class="flex justify-center space-x-2">
 			<a class="btn variant-filled" href="https://t.me/solaxium" target="_blank" rel="noreferrer">
