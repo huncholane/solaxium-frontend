@@ -20,7 +20,7 @@ User-Friendly Interface: Designing an intuitive and responsive platform that cat
 
 **Business Model:**
 
-Solaxium generates revenue primarily through micro transaction fees on trades, premium subscription services, and [NEED SOMETHING HERE] . By offering highly competitive fee structures and unique value creating solutions, we aim to attract a diverse user base leading to sustainable growth rapidly cornering the Solana trading market.
+Solaxium generates revenue primarily through micro transaction fees on trades, premium subscription services, and liquidation. By offering highly competitive fee structures and unique value creating solutions, we aim to attract a diverse user base leading to sustainable growth rapidly cornering the Solana trading market.
 
 **Go-to-Market Strategy:**
 
