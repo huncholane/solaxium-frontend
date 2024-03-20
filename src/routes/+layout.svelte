@@ -31,6 +31,42 @@
 	let currentTile: number = 0;
 </script>
 
+<svelte:head>
+	<title>Solaxium</title>
+	<link rel="icon" type="image/png" href="/favicon.svg" />
+	<meta
+		name="description"
+		content="The upgrade Solana needs. Upgrade to the current Solana dex platforms and coding experience."
+	/>
+
+	<!-- Facebook Meta Tags -->
+	<meta property="og:url" content="https://solaxium.com" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="" />
+	<meta
+		property="og:description"
+		content="The upgrade Solana needs. Upgrade to the current Solana dex platforms and coding experience."
+	/>
+	<meta
+		property="og:image"
+		content="https://opengraph.b-cdn.net/production/documents/be2ed16c-b994-4492-a3ca-677b03ae7f30.jpg?token=nHWBG84EZhX7fPIeJJ-SqNdYxMCl1p8rGjGFLgmnOSs&height=1024&width=1024&expires=33246948311"
+	/>
+
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="twitter:domain" content="solaxium.com" />
+	<meta property="twitter:url" content="https://solaxium.com" />
+	<meta name="twitter:title" content="" />
+	<meta
+		name="twitter:description"
+		content="The upgrade Solana needs. Upgrade to the current Solana dex platforms and coding experience."
+	/>
+	<meta
+		name="twitter:image"
+		content="https://opengraph.b-cdn.net/production/documents/be2ed16c-b994-4492-a3ca-677b03ae7f30.jpg?token=nHWBG84EZhX7fPIeJJ-SqNdYxMCl1p8rGjGFLgmnOSs&height=1024&width=1024&expires=33246948311"
+	/>
+</svelte:head>
+
 <!-- App Shell -->
 <AppShell>
 	<svelte:fragment slot="header">
