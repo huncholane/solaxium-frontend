@@ -78,16 +78,6 @@
 				>
 				<img class="solaxium-logo" src="/solaxium.svg" alt="" />
 			</svelte:fragment>
-			<svelte:fragment slot="trail">
-				<a
-					class="btn btn-sm variant-ghost-surface"
-					href="https://github.com/huncholane/solaxium/blob/main/ReadMe.md"
-					target="_blank"
-					rel="noreferrer"
-				>
-					WhitePaper
-				</a>
-			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
 	<!-- Page Route Content -->
@@ -97,11 +87,21 @@
 
 <style>
 	.solaxium-brand {
-		width: 90px;
-		margin-left: -10px;
+		width: 300px;
+		height: 250px;
+		margin-left: -60px;
+		margin-bottom: -100px;
+		margin-top: -100px;
+	
 	}
 	.solaxium-logo {
-		width: 180px;
+		width: 500px;
+		height: 100px;
+		margin-left: -80px;
+		margin-top: 25px;
+		margin-bottom: -25px;
+		
+		
 	}
 	h1 {
 		font-size: 30px;
