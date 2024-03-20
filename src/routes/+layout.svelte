@@ -95,10 +95,10 @@
 	
 	}
 	.solaxium-logo {
-		width: 500px;
+		width: 450px;
 		height: 100px;
 		margin-left: -80px;
-		margin-top: 25px;
+		margin-top: 30px;
 		margin-bottom: -25px;
 		
 		
