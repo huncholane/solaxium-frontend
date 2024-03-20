@@ -1,3 +1,7 @@
+<script>
+	import Roadmap from '$lib/Roadmap.svelte';
+</script>
+
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-10 text-center flex flex-col items-center">
 		<h2 class="h2">Welcome to the Solaxium Ecosystem.</h2>
@@ -12,6 +16,7 @@
 		<div class="space-y-2"></div>
 	</div>
 </div>
+<Roadmap />
 
 <style lang="postcss">
 	figure {
